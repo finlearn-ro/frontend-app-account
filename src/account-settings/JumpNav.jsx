@@ -22,14 +22,7 @@ const JumpNav = ({ intl }) => {
       })}
     >
       <Scrollspy
-        items={[
-          "basic-information",
-          "profile-information",
-          "social-media",
-          "site-preferences",
-          "linked-accounts",
-          "delete-account",
-        ]}
+        items={["basic-information", "site-preferences"]}
         className="list-unstyled"
         currentClassName="font-weight-bold"
       >
